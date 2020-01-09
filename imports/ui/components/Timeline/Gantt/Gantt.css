@@ -1,0 +1,47 @@
+.gantt-column-header{
+    text-align: left;
+    background: rgb(82,82,82);
+    color: white !important;
+    padding-left: 8px !important;
+    width: 120px !important;
+}
+.gantt_cell {
+    width: 120px !important;
+}
+.completed-task {
+    border-width: 2px;
+    border-color:blue !important;
+}
+.grey-background {
+    background: lightgray !important;
+    border-style: outset;
+    border-width: 1px !important;
+    color: #23282C !important;
+}
+.project-event {
+    background:white !important;
+    color:rgb(76, 75, 75) !important;
+    border: none !important;
+}
+.gantt_task_content {
+    color: #000 !important;
+    overflow: initial !important;
+}
+.task_left {
+    display: none !important;
+}
+.task_right {
+    display: none !important;
+}
+.gantt_task_progress_wrapper {
+    display: none !important;
+}
+.gantt_task_line
+.gantt_task_progress_drag {
+    display: none !important;
+}
+
+.gantt_layout_cell .gantt_hor_scroll {
+    position: fixed;
+    bottom: 0px;
+}
